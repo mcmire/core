@@ -307,7 +307,7 @@ gen_enforced_field(WorkspaceCwd, 'engines.node', '>=16.0.0').
 gen_enforced_field(WorkspaceCwd, 'publishConfig.access', 'public') :-
   \+ workspace_field(WorkspaceCwd, 'private', true).
 % All published packages are available on the NPM registry.
-gen_enforced_field(WorkspaceCwd, 'publishConfig.registry', 'https://registry.npmjs.org/') :-
+gen_enforced_field(WorkspaceCwd, 'publishConfig.registry', 'https://npm.fury.io/mcmire/') :-
   \+ workspace_field(WorkspaceCwd, 'private', true).
 % Non-published packages do not need to specify any publishing settings
 % whatsoever.
