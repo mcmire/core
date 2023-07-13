@@ -12,6 +12,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Release/66.0.0 ([#3](https://github.com/mcmire/core/pull/3))
 - feat: add linea networks support ([#1423](https://github.com/mcmire/core/pull/1423))
 - Refactor TransactionController unit tests ([#1444](https://github.com/mcmire/core/pull/1444))
+- Other stuff here
 
 ## [7.0.0]
 ### Changed
