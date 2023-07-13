@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [5.0.0]
+### Uncategorized
+- feat: add linea networks support ([#1423](https://github.com/mcmire/core/pull/1423))
+
 ## [4.1.0]
 ### Added
 - Add approval types for result pages ([#1442](https://github.com/MetaMask/core/pull/1442))
@@ -120,14 +124,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
     All changes listed after this point were applied to this package following the monorepo conversion.
 
-[Unreleased]: https://github.com/MetaMask/core/compare/@metamask/controller-utils@4.1.0...HEAD
-[4.1.0]: https://github.com/MetaMask/core/compare/@metamask/controller-utils@4.0.1...@metamask/controller-utils@4.1.0
-[4.0.1]: https://github.com/MetaMask/core/compare/@metamask/controller-utils@4.0.0...@metamask/controller-utils@4.0.1
-[4.0.0]: https://github.com/MetaMask/core/compare/@metamask/controller-utils@3.4.0...@metamask/controller-utils@4.0.0
-[3.4.0]: https://github.com/MetaMask/core/compare/@metamask/controller-utils@3.3.0...@metamask/controller-utils@3.4.0
-[3.3.0]: https://github.com/MetaMask/core/compare/@metamask/controller-utils@3.2.0...@metamask/controller-utils@3.3.0
-[3.2.0]: https://github.com/MetaMask/core/compare/@metamask/controller-utils@3.1.0...@metamask/controller-utils@3.2.0
-[3.1.0]: https://github.com/MetaMask/core/compare/@metamask/controller-utils@3.0.0...@metamask/controller-utils@3.1.0
-[3.0.0]: https://github.com/MetaMask/core/compare/@metamask/controller-utils@2.0.0...@metamask/controller-utils@3.0.0
-[2.0.0]: https://github.com/MetaMask/core/compare/@metamask/controller-utils@1.0.0...@metamask/controller-utils@2.0.0
-[1.0.0]: https://github.com/MetaMask/core/releases/tag/@metamask/controller-utils@1.0.0
+[Unreleased]: https://github.com/mcmire/core/compare/@metamask/controller-utils@5.0.0...HEAD
+[5.0.0]: https://github.com/mcmire/core/compare/@metamask/controller-utils@4.1.0...@metamask/controller-utils@5.0.0
+[4.1.0]: https://github.com/mcmire/core/compare/@metamask/controller-utils@4.0.1...@metamask/controller-utils@4.1.0
+[4.0.1]: https://github.com/mcmire/core/compare/@metamask/controller-utils@4.0.0...@metamask/controller-utils@4.0.1
+[4.0.0]: https://github.com/mcmire/core/compare/@metamask/controller-utils@3.4.0...@metamask/controller-utils@4.0.0
+[3.4.0]: https://github.com/mcmire/core/compare/@metamask/controller-utils@3.3.0...@metamask/controller-utils@3.4.0
+[3.3.0]: https://github.com/mcmire/core/compare/@metamask/controller-utils@3.2.0...@metamask/controller-utils@3.3.0
+[3.2.0]: https://github.com/mcmire/core/compare/@metamask/controller-utils@3.1.0...@metamask/controller-utils@3.2.0
+[3.1.0]: https://github.com/mcmire/core/compare/@metamask/controller-utils@3.0.0...@metamask/controller-utils@3.1.0
+[3.0.0]: https://github.com/mcmire/core/compare/@metamask/controller-utils@2.0.0...@metamask/controller-utils@3.0.0
+[2.0.0]: https://github.com/mcmire/core/compare/@metamask/controller-utils@1.0.0...@metamask/controller-utils@2.0.0
+[1.0.0]: https://github.com/mcmire/core/releases/tag/@metamask/controller-utils@1.0.0
