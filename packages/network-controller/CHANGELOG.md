@@ -6,18 +6,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## [11.0.0]
-### Uncategorized
-- Revert "Release/66.0.0 ([#6](https://github.com/MetaMask/core/pull/6))
-- Release/66.0.0 ([#6](https://github.com/MetaMask/core/pull/6))
-- Revert "Release/66.0.0 ([#5](https://github.com/MetaMask/core/pull/5))
-- Release/66.0.0 ([#5](https://github.com/MetaMask/core/pull/5))
-- Revert "Release/66.0.0 ([#4](https://github.com/MetaMask/core/pull/4))
-- Release/66.0.0 ([#4](https://github.com/MetaMask/core/pull/4))
-- Revert "Release/66.0.0 ([#3](https://github.com/MetaMask/core/pull/3))
-- Release/66.0.0 ([#3](https://github.com/MetaMask/core/pull/3))
-- feat: add linea networks support ([#1423](https://github.com/MetaMask/core/pull/1423))
-
 ## [10.3.0]
 ### Added
 - Add `getNetworkClientsById` method ([#1439](https://github.com/MetaMask/core/pull/1439))
@@ -212,8 +200,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
     All changes listed after this point were applied to this package following the monorepo conversion.
 
-[Unreleased]: https://github.com/MetaMask/core/compare/@metamask/network-controller@11.0.0...HEAD
-[11.0.0]: https://github.com/MetaMask/core/compare/@metamask/network-controller@10.3.0...@metamask/network-controller@11.0.0
+[Unreleased]: https://github.com/MetaMask/core/compare/@metamask/network-controller@10.3.0...HEAD
 [10.3.0]: https://github.com/MetaMask/core/compare/@metamask/network-controller@10.2.0...@metamask/network-controller@10.3.0
 [10.2.0]: https://github.com/MetaMask/core/compare/@metamask/network-controller@10.1.0...@metamask/network-controller@10.2.0
 [10.1.0]: https://github.com/MetaMask/core/compare/@metamask/network-controller@10.0.0...@metamask/network-controller@10.1.0
