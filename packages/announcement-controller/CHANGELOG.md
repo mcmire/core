@@ -8,7 +8,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [4.0.0]
 ### Changed
-- **BREAKING:** Bump to Node 16 ([#1262](https://github.com/MetaMask/core/pull/1262))
+- **BREAKING:** Bump to Node 16 ([#1262](https://github.com/mcmire/core/pull/1262))
 
 ## [3.0.0]
 ### Removed
@@ -43,20 +43,20 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [1.0.1]
 ### Changed
-- Relax dependency on `@metamask/base-controller` (use `^` instead of `~`) ([#998](https://github.com/MetaMask/core/pull/998))
+- Relax dependency on `@metamask/base-controller` (use `^` instead of `~`) ([#998](https://github.com/mcmire/core/pull/998))
 
 ## [1.0.0]
 ### Added
 - Initial release
-  - As a result of converting our shared controllers repo into a monorepo ([#831](https://github.com/MetaMask/core/pull/831)), we've created this package from select parts of [`@metamask/controllers` v33.0.0](https://github.com/MetaMask/core/tree/v33.0.0), namely:
+  - As a result of converting our shared controllers repo into a monorepo ([#831](https://github.com/mcmire/core/pull/831)), we've created this package from select parts of [`@metamask/controllers` v33.0.0](https://github.com/mcmire/core/tree/v33.0.0), namely:
     - Everything in `src/announcement`
 
     All changes listed after this point were applied to this package following the monorepo conversion.
 
-[Unreleased]: https://github.com/MetaMask/core/compare/@metamask/announcement-controller@4.0.0...HEAD
-[4.0.0]: https://github.com/MetaMask/core/compare/@metamask/announcement-controller@3.0.0...@metamask/announcement-controller@4.0.0
-[3.0.0]: https://github.com/MetaMask/core/compare/@metamask/announcement-controller@2.0.1...@metamask/announcement-controller@3.0.0
-[2.0.1]: https://github.com/MetaMask/core/compare/@metamask/announcement-controller@2.0.0...@metamask/announcement-controller@2.0.1
-[2.0.0]: https://github.com/MetaMask/core/compare/@metamask/announcement-controller@1.0.1...@metamask/announcement-controller@2.0.0
-[1.0.1]: https://github.com/MetaMask/core/compare/@metamask/announcement-controller@1.0.0...@metamask/announcement-controller@1.0.1
-[1.0.0]: https://github.com/MetaMask/core/releases/tag/@metamask/announcement-controller@1.0.0
+[Unreleased]: https://github.com/mcmire/core/compare/@metamask/announcement-controller@4.0.0...HEAD
+[4.0.0]: https://github.com/mcmire/core/compare/@metamask/announcement-controller@3.0.0...@metamask/announcement-controller@4.0.0
+[3.0.0]: https://github.com/mcmire/core/compare/@metamask/announcement-controller@2.0.1...@metamask/announcement-controller@3.0.0
+[2.0.1]: https://github.com/mcmire/core/compare/@metamask/announcement-controller@2.0.0...@metamask/announcement-controller@2.0.1
+[2.0.0]: https://github.com/mcmire/core/compare/@metamask/announcement-controller@1.0.1...@metamask/announcement-controller@2.0.0
+[1.0.1]: https://github.com/mcmire/core/compare/@metamask/announcement-controller@1.0.0...@metamask/announcement-controller@1.0.1
+[1.0.0]: https://github.com/mcmire/core/releases/tag/@metamask/announcement-controller@1.0.0
