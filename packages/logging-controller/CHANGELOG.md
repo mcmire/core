@@ -9,7 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [1.0.0]
 ### Added
 - Initial Release
-  - Add logging controller ([#1089](https://github.com/mcmire/core.git/pull/1089))
+  - Add logging controller ([#1089](https://github.com/MetaMask/core.git/pull/1089))
 
-[Unreleased]: https://github.com/mcmire/core/compare/@metamask/logging-controller@1.0.0...HEAD
-[1.0.0]: https://github.com/mcmire/core/releases/tag/@metamask/logging-controller@1.0.0
+[Unreleased]: https://github.com/MetaMask/core/compare/@metamask/logging-controller@1.0.0...HEAD
+[1.0.0]: https://github.com/MetaMask/core/releases/tag/@metamask/logging-controller@1.0.0

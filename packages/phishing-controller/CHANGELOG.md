@@ -8,14 +8,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [5.0.0]
 ### Changed
-- **BREAKING:** Bump to Node 16 ([#1262](https://github.com/mcmire/core/pull/1262))
+- **BREAKING:** Bump to Node 16 ([#1262](https://github.com/MetaMask/core/pull/1262))
 
 ## [4.0.0]
 ### Changed
-- **BREAKING:** Switch to new phishing configuration API that returns a diff since the last update ([#1123](https://github.com/mcmire/core/pull/1123))
+- **BREAKING:** Switch to new phishing configuration API that returns a diff since the last update ([#1123](https://github.com/MetaMask/core/pull/1123))
   - The "hotlist" has been replaced by a service that returns any configuration changes since the last update. This should reduce network traffic even further.
   - The endpoints used are now `https://phishing-detection.metafi.codefi.network/v1/stalelist` and `https://phishing-detection.metafi.codefi.network/v1/diffsSince/:lastUpdated`
-- **BREAKING:**: The phishing controller state now keeps the MetaMask and PhishFort configuration separate, allowing for proper attribution of each block ([#1123](https://github.com/mcmire/core/pull/1123))
+- **BREAKING:**: The phishing controller state now keeps the MetaMask and PhishFort configuration separate, allowing for proper attribution of each block ([#1123](https://github.com/MetaMask/core/pull/1123))
   - The `listState` state property has been replaced with an array of phishing list state objects (one entry for MetaMask, one for PhishFort).
   - The PhishFort config is deduplicated server-side, so it should have zero overlap with the MetaMask configuration (which helps reduce memory/disk usage)
 
@@ -26,7 +26,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [2.0.0]
 ### Changed
-- **BREAKING:** Refactor to Cost-Optimized Phishing List Data Architecture. ([#1080](https://github.com/mcmire/core/pull/1080))
+- **BREAKING:** Refactor to Cost-Optimized Phishing List Data Architecture. ([#1080](https://github.com/MetaMask/core/pull/1080))
   - Rather than periodically downloading two separate configurations (MetaMask and Phishfort), we now download a combined "stalelist" and "hotlist". The stalelist is downloaded every 4 days, and the hotlist is downloaded every 30 minutes. The hotlist only includes data from the last 8 days, which should dramatically reduce the required network traffic for phishing config updates.
   - When a site is blocked, we no longer know which list is responsible due to the combined format. We will need to come up with another way to attribute blocks to a specific list; this controller will no longer be responsible for that.
   - This change includes the removal of the exports:
@@ -45,7 +45,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [1.1.2]
 ### Fixed
-- Improve performance of phishing list update ([#1086](https://github.com/mcmire/core/pull/1086))
+- Improve performance of phishing list update ([#1086](https://github.com/MetaMask/core/pull/1086))
   - We now use a `Set` + `has` method instead of the array `includes` method for detecting overlap between phishing lists after an update.
 
 ## [1.1.1]
@@ -55,27 +55,27 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [1.1.0]
 ### Added
-- Add method to conditionally update the phishing lists ([#986](https://github.com/mcmire/core/pull/986))
+- Add method to conditionally update the phishing lists ([#986](https://github.com/MetaMask/core/pull/986))
 
 ### Changed
-- Relax dependencies on `@metamask/base-controller` and `@metamask/controller-utils` (use `^` instead of `~`) ([#998](https://github.com/mcmire/core/pull/998))
-- Expose `lastFetched` in PhishingController state ([#986](https://github.com/mcmire/core/pull/986))
+- Relax dependencies on `@metamask/base-controller` and `@metamask/controller-utils` (use `^` instead of `~`) ([#998](https://github.com/MetaMask/core/pull/998))
+- Expose `lastFetched` in PhishingController state ([#986](https://github.com/MetaMask/core/pull/986))
 
 ## [1.0.0]
 ### Added
 - Initial release
-  - As a result of converting our shared controllers repo into a monorepo ([#831](https://github.com/mcmire/core/pull/831)), we've created this package from select parts of [`@metamask/controllers` v33.0.0](https://github.com/mcmire/core/tree/v33.0.0), namely:
+  - As a result of converting our shared controllers repo into a monorepo ([#831](https://github.com/MetaMask/core/pull/831)), we've created this package from select parts of [`@metamask/controllers` v33.0.0](https://github.com/MetaMask/core/tree/v33.0.0), namely:
     - `src/third-party/PhishingController.ts`
     - `src/third-party/PhishingController.test.ts`
 
     All changes listed after this point were applied to this package following the monorepo conversion.
 
-[Unreleased]: https://github.com/mcmire/core/compare/@metamask/phishing-controller@5.0.0...HEAD
-[5.0.0]: https://github.com/mcmire/core/compare/@metamask/phishing-controller@4.0.0...@metamask/phishing-controller@5.0.0
-[4.0.0]: https://github.com/mcmire/core/compare/@metamask/phishing-controller@3.0.0...@metamask/phishing-controller@4.0.0
-[3.0.0]: https://github.com/mcmire/core/compare/@metamask/phishing-controller@2.0.0...@metamask/phishing-controller@3.0.0
-[2.0.0]: https://github.com/mcmire/core/compare/@metamask/phishing-controller@1.1.2...@metamask/phishing-controller@2.0.0
-[1.1.2]: https://github.com/mcmire/core/compare/@metamask/phishing-controller@1.1.1...@metamask/phishing-controller@1.1.2
-[1.1.1]: https://github.com/mcmire/core/compare/@metamask/phishing-controller@1.1.0...@metamask/phishing-controller@1.1.1
-[1.1.0]: https://github.com/mcmire/core/compare/@metamask/phishing-controller@1.0.0...@metamask/phishing-controller@1.1.0
-[1.0.0]: https://github.com/mcmire/core/releases/tag/@metamask/phishing-controller@1.0.0
+[Unreleased]: https://github.com/MetaMask/core/compare/@metamask/phishing-controller@5.0.0...HEAD
+[5.0.0]: https://github.com/MetaMask/core/compare/@metamask/phishing-controller@4.0.0...@metamask/phishing-controller@5.0.0
+[4.0.0]: https://github.com/MetaMask/core/compare/@metamask/phishing-controller@3.0.0...@metamask/phishing-controller@4.0.0
+[3.0.0]: https://github.com/MetaMask/core/compare/@metamask/phishing-controller@2.0.0...@metamask/phishing-controller@3.0.0
+[2.0.0]: https://github.com/MetaMask/core/compare/@metamask/phishing-controller@1.1.2...@metamask/phishing-controller@2.0.0
+[1.1.2]: https://github.com/MetaMask/core/compare/@metamask/phishing-controller@1.1.1...@metamask/phishing-controller@1.1.2
+[1.1.1]: https://github.com/MetaMask/core/compare/@metamask/phishing-controller@1.1.0...@metamask/phishing-controller@1.1.1
+[1.1.0]: https://github.com/MetaMask/core/compare/@metamask/phishing-controller@1.0.0...@metamask/phishing-controller@1.1.0
+[1.0.0]: https://github.com/MetaMask/core/releases/tag/@metamask/phishing-controller@1.0.0

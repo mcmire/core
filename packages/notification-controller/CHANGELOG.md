@@ -8,8 +8,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [3.0.0]
 ### Changed
-- **BREAKING:** Bump to Node 16 ([#1262](https://github.com/mcmire/core/pull/1262))
-- Add `@metamask/utils` dependency ([#1275](https://github.com/mcmire/core/pull/1275))
+- **BREAKING:** Bump to Node 16 ([#1262](https://github.com/MetaMask/core/pull/1262))
+- Add `@metamask/utils` dependency ([#1275](https://github.com/MetaMask/core/pull/1275))
 
 ## [2.0.0]
 ### Removed
@@ -23,19 +23,19 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [1.0.1]
 ### Changed
-- Relax dependencies on `@metamask/base-controller` and `@metamask/controller-utils` (use `^` instead of `~`) ([#998](https://github.com/mcmire/core/pull/998))
+- Relax dependencies on `@metamask/base-controller` and `@metamask/controller-utils` (use `^` instead of `~`) ([#998](https://github.com/MetaMask/core/pull/998))
 
 ## [1.0.0]
 ### Added
 - Initial release
-  - As a result of converting our shared controllers repo into a monorepo ([#831](https://github.com/mcmire/core/pull/831)), we've created this package from select parts of [`@metamask/controllers` v33.0.0](https://github.com/mcmire/core/tree/v33.0.0), namely:
+  - As a result of converting our shared controllers repo into a monorepo ([#831](https://github.com/MetaMask/core/pull/831)), we've created this package from select parts of [`@metamask/controllers` v33.0.0](https://github.com/MetaMask/core/tree/v33.0.0), namely:
     - Everything in `src/notification`
 
     All changes listed after this point were applied to this package following the monorepo conversion.
 
-[Unreleased]: https://github.com/mcmire/core/compare/@metamask/notification-controller@3.0.0...HEAD
-[3.0.0]: https://github.com/mcmire/core/compare/@metamask/notification-controller@2.0.0...@metamask/notification-controller@3.0.0
-[2.0.0]: https://github.com/mcmire/core/compare/@metamask/notification-controller@1.0.2...@metamask/notification-controller@2.0.0
-[1.0.2]: https://github.com/mcmire/core/compare/@metamask/notification-controller@1.0.1...@metamask/notification-controller@1.0.2
-[1.0.1]: https://github.com/mcmire/core/compare/@metamask/notification-controller@1.0.0...@metamask/notification-controller@1.0.1
-[1.0.0]: https://github.com/mcmire/core/releases/tag/@metamask/notification-controller@1.0.0
+[Unreleased]: https://github.com/MetaMask/core/compare/@metamask/notification-controller@3.0.0...HEAD
+[3.0.0]: https://github.com/MetaMask/core/compare/@metamask/notification-controller@2.0.0...@metamask/notification-controller@3.0.0
+[2.0.0]: https://github.com/MetaMask/core/compare/@metamask/notification-controller@1.0.2...@metamask/notification-controller@2.0.0
+[1.0.2]: https://github.com/MetaMask/core/compare/@metamask/notification-controller@1.0.1...@metamask/notification-controller@1.0.2
+[1.0.1]: https://github.com/MetaMask/core/compare/@metamask/notification-controller@1.0.0...@metamask/notification-controller@1.0.1
+[1.0.0]: https://github.com/MetaMask/core/releases/tag/@metamask/notification-controller@1.0.0
