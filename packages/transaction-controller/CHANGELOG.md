@@ -8,18 +8,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [8.0.0]
 ### Uncategorized
-- Revert "Release/66.0.0 ([#7](https://github.com/mcmire/core/pull/7))
-- Release/66.0.0 ([#7](https://github.com/mcmire/core/pull/7))
-- Revert "Release/66.0.0 ([#6](https://github.com/mcmire/core/pull/6))
-- Release/66.0.0 ([#6](https://github.com/mcmire/core/pull/6))
-- Revert "Release/66.0.0 ([#5](https://github.com/mcmire/core/pull/5))
-- Release/66.0.0 ([#5](https://github.com/mcmire/core/pull/5))
-- Revert "Release/66.0.0 ([#4](https://github.com/mcmire/core/pull/4))
-- Release/66.0.0 ([#4](https://github.com/mcmire/core/pull/4))
-- Revert "Release/66.0.0 ([#3](https://github.com/mcmire/core/pull/3))
-- Release/66.0.0 ([#3](https://github.com/mcmire/core/pull/3))
-- feat: add linea networks support ([#1423](https://github.com/mcmire/core/pull/1423))
-- Refactor TransactionController unit tests ([#1444](https://github.com/mcmire/core/pull/1444))
+- Revert "Release/66.0.0 ([#7](https://github.com/MetaMask/core/pull/7))
+- Release/66.0.0 ([#7](https://github.com/MetaMask/core/pull/7))
+- Revert "Release/66.0.0 ([#6](https://github.com/MetaMask/core/pull/6))
+- Release/66.0.0 ([#6](https://github.com/MetaMask/core/pull/6))
+- Revert "Release/66.0.0 ([#5](https://github.com/MetaMask/core/pull/5))
+- Release/66.0.0 ([#5](https://github.com/MetaMask/core/pull/5))
+- Revert "Release/66.0.0 ([#4](https://github.com/MetaMask/core/pull/4))
+- Release/66.0.0 ([#4](https://github.com/MetaMask/core/pull/4))
+- Revert "Release/66.0.0 ([#3](https://github.com/MetaMask/core/pull/3))
+- Release/66.0.0 ([#3](https://github.com/MetaMask/core/pull/3))
+- feat: add linea networks support ([#1423](https://github.com/MetaMask/core/pull/1423))
+- Refactor TransactionController unit tests ([#1444](https://github.com/MetaMask/core/pull/1444))
 
 ## [7.0.0]
 ### Changed
@@ -99,14 +99,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
     All changes listed after this point were applied to this package following the monorepo conversion.
 
-[Unreleased]: https://github.com/mcmire/core/compare/@metamask/transaction-controller@8.0.0...HEAD
-[8.0.0]: https://github.com/mcmire/core/compare/@metamask/transaction-controller@7.0.0...@metamask/transaction-controller@8.0.0
-[7.0.0]: https://github.com/mcmire/core/compare/@metamask/transaction-controller@6.1.0...@metamask/transaction-controller@7.0.0
-[6.1.0]: https://github.com/mcmire/core/compare/@metamask/transaction-controller@6.0.0...@metamask/transaction-controller@6.1.0
-[6.0.0]: https://github.com/mcmire/core/compare/@metamask/transaction-controller@5.0.0...@metamask/transaction-controller@6.0.0
-[5.0.0]: https://github.com/mcmire/core/compare/@metamask/transaction-controller@4.0.1...@metamask/transaction-controller@5.0.0
-[4.0.1]: https://github.com/mcmire/core/compare/@metamask/transaction-controller@4.0.0...@metamask/transaction-controller@4.0.1
-[4.0.0]: https://github.com/mcmire/core/compare/@metamask/transaction-controller@3.0.0...@metamask/transaction-controller@4.0.0
-[3.0.0]: https://github.com/mcmire/core/compare/@metamask/transaction-controller@2.0.0...@metamask/transaction-controller@3.0.0
-[2.0.0]: https://github.com/mcmire/core/compare/@metamask/transaction-controller@1.0.0...@metamask/transaction-controller@2.0.0
-[1.0.0]: https://github.com/mcmire/core/releases/tag/@metamask/transaction-controller@1.0.0
+[Unreleased]: https://github.com/MetaMask/core/compare/@metamask/transaction-controller@8.0.0...HEAD
+[8.0.0]: https://github.com/MetaMask/core/compare/@metamask/transaction-controller@7.0.0...@metamask/transaction-controller@8.0.0
+[7.0.0]: https://github.com/MetaMask/core/compare/@metamask/transaction-controller@6.1.0...@metamask/transaction-controller@7.0.0
+[6.1.0]: https://github.com/MetaMask/core/compare/@metamask/transaction-controller@6.0.0...@metamask/transaction-controller@6.1.0
+[6.0.0]: https://github.com/MetaMask/core/compare/@metamask/transaction-controller@5.0.0...@metamask/transaction-controller@6.0.0
+[5.0.0]: https://github.com/MetaMask/core/compare/@metamask/transaction-controller@4.0.1...@metamask/transaction-controller@5.0.0
+[4.0.1]: https://github.com/MetaMask/core/compare/@metamask/transaction-controller@4.0.0...@metamask/transaction-controller@4.0.1
+[4.0.0]: https://github.com/MetaMask/core/compare/@metamask/transaction-controller@3.0.0...@metamask/transaction-controller@4.0.0
+[3.0.0]: https://github.com/MetaMask/core/compare/@metamask/transaction-controller@2.0.0...@metamask/transaction-controller@3.0.0
+[2.0.0]: https://github.com/MetaMask/core/compare/@metamask/transaction-controller@1.0.0...@metamask/transaction-controller@2.0.0
+[1.0.0]: https://github.com/MetaMask/core/releases/tag/@metamask/transaction-controller@1.0.0
