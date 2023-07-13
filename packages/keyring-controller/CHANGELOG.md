@@ -6,14 +6,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## [7.0.0]
-### Uncategorized
-- Revert "Release/66.0.0 ([#4](https://github.com/mcmire/core/pull/4))
-- Release/66.0.0 ([#4](https://github.com/mcmire/core/pull/4))
-- Revert "Release/66.0.0 ([#3](https://github.com/mcmire/core/pull/3))
-- Release/66.0.0 ([#3](https://github.com/mcmire/core/pull/3))
-- deps: bump eth-sig-util to latest ([#1483](https://github.com/mcmire/core/pull/1483))
-
 ## [6.0.0]
 ### Added
 - Add messenger events `KeyringController:lock` and `KeyringController:unlock`, emitted when the inner EthKeyringController is locked/unlocked ([#1378](https://github.com/MetaMask/core/pull/1378))
@@ -127,13 +119,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
     All changes listed after this point were applied to this package following the monorepo conversion.
 
-[Unreleased]: https://github.com/mcmire/core/compare/@metamask/keyring-controller@7.0.0...HEAD
-[7.0.0]: https://github.com/mcmire/core/compare/@metamask/keyring-controller@6.0.0...@metamask/keyring-controller@7.0.0
-[6.0.0]: https://github.com/mcmire/core/compare/@metamask/keyring-controller@5.1.0...@metamask/keyring-controller@6.0.0
-[5.1.0]: https://github.com/mcmire/core/compare/@metamask/keyring-controller@5.0.0...@metamask/keyring-controller@5.1.0
-[5.0.0]: https://github.com/mcmire/core/compare/@metamask/keyring-controller@4.0.0...@metamask/keyring-controller@5.0.0
-[4.0.0]: https://github.com/mcmire/core/compare/@metamask/keyring-controller@3.0.0...@metamask/keyring-controller@4.0.0
-[3.0.0]: https://github.com/mcmire/core/compare/@metamask/keyring-controller@2.0.0...@metamask/keyring-controller@3.0.0
-[2.0.0]: https://github.com/mcmire/core/compare/@metamask/keyring-controller@1.0.1...@metamask/keyring-controller@2.0.0
-[1.0.1]: https://github.com/mcmire/core/compare/@metamask/keyring-controller@1.0.0...@metamask/keyring-controller@1.0.1
-[1.0.0]: https://github.com/mcmire/core/releases/tag/@metamask/keyring-controller@1.0.0
+[Unreleased]: https://github.com/MetaMask/core/compare/@metamask/keyring-controller@6.0.0...HEAD
+[6.0.0]: https://github.com/MetaMask/core/compare/@metamask/keyring-controller@5.1.0...@metamask/keyring-controller@6.0.0
+[5.1.0]: https://github.com/MetaMask/core/compare/@metamask/keyring-controller@5.0.0...@metamask/keyring-controller@5.1.0
+[5.0.0]: https://github.com/MetaMask/core/compare/@metamask/keyring-controller@4.0.0...@metamask/keyring-controller@5.0.0
+[4.0.0]: https://github.com/MetaMask/core/compare/@metamask/keyring-controller@3.0.0...@metamask/keyring-controller@4.0.0
+[3.0.0]: https://github.com/MetaMask/core/compare/@metamask/keyring-controller@2.0.0...@metamask/keyring-controller@3.0.0
+[2.0.0]: https://github.com/MetaMask/core/compare/@metamask/keyring-controller@1.0.1...@metamask/keyring-controller@2.0.0
+[1.0.1]: https://github.com/MetaMask/core/compare/@metamask/keyring-controller@1.0.0...@metamask/keyring-controller@1.0.1
+[1.0.0]: https://github.com/MetaMask/core/releases/tag/@metamask/keyring-controller@1.0.0

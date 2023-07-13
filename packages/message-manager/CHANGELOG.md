@@ -6,14 +6,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## [8.0.0]
-### Uncategorized
-- Revert "Release/66.0.0 ([#4](https://github.com/mcmire/core/pull/4))
-- Release/66.0.0 ([#4](https://github.com/mcmire/core/pull/4))
-- Revert "Release/66.0.0 ([#3](https://github.com/mcmire/core/pull/3))
-- Release/66.0.0 ([#3](https://github.com/mcmire/core/pull/3))
-- deps: bump eth-sig-util to latest ([#1483](https://github.com/mcmire/core/pull/1483))
-
 ## [7.0.2]
 ### Fixed
 - Avoid race condition when creating typed messages ([#1467](https://github.com/MetaMask/core/pull/1467))
@@ -96,19 +88,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
     All changes listed after this point were applied to this package following the monorepo conversion.
 
-[Unreleased]: https://github.com/mcmire/core/compare/@metamask/message-manager@8.0.0...HEAD
-[8.0.0]: https://github.com/mcmire/core/compare/@metamask/message-manager@7.0.2...@metamask/message-manager@8.0.0
-[7.0.2]: https://github.com/mcmire/core/compare/@metamask/message-manager@7.0.1...@metamask/message-manager@7.0.2
-[7.0.1]: https://github.com/mcmire/core/compare/@metamask/message-manager@7.0.0...@metamask/message-manager@7.0.1
-[7.0.0]: https://github.com/mcmire/core/compare/@metamask/message-manager@6.0.0...@metamask/message-manager@7.0.0
-[6.0.0]: https://github.com/mcmire/core/compare/@metamask/message-manager@5.0.0...@metamask/message-manager@6.0.0
-[5.0.0]: https://github.com/mcmire/core/compare/@metamask/message-manager@4.0.0...@metamask/message-manager@5.0.0
-[4.0.0]: https://github.com/mcmire/core/compare/@metamask/message-manager@3.1.1...@metamask/message-manager@4.0.0
-[3.1.1]: https://github.com/mcmire/core/compare/@metamask/message-manager@3.1.0...@metamask/message-manager@3.1.1
-[3.1.0]: https://github.com/mcmire/core/compare/@metamask/message-manager@3.0.0...@metamask/message-manager@3.1.0
-[3.0.0]: https://github.com/mcmire/core/compare/@metamask/message-manager@2.1.0...@metamask/message-manager@3.0.0
-[2.1.0]: https://github.com/mcmire/core/compare/@metamask/message-manager@2.0.0...@metamask/message-manager@2.1.0
-[2.0.0]: https://github.com/mcmire/core/compare/@metamask/message-manager@1.0.2...@metamask/message-manager@2.0.0
-[1.0.2]: https://github.com/mcmire/core/compare/@metamask/message-manager@1.0.1...@metamask/message-manager@1.0.2
-[1.0.1]: https://github.com/mcmire/core/compare/@metamask/message-manager@1.0.0...@metamask/message-manager@1.0.1
-[1.0.0]: https://github.com/mcmire/core/releases/tag/@metamask/message-manager@1.0.0
+[Unreleased]: https://github.com/MetaMask/core/compare/@metamask/message-manager@7.0.2...HEAD
+[7.0.2]: https://github.com/MetaMask/core/compare/@metamask/message-manager@7.0.1...@metamask/message-manager@7.0.2
+[7.0.1]: https://github.com/MetaMask/core/compare/@metamask/message-manager@7.0.0...@metamask/message-manager@7.0.1
+[7.0.0]: https://github.com/MetaMask/core/compare/@metamask/message-manager@6.0.0...@metamask/message-manager@7.0.0
+[6.0.0]: https://github.com/MetaMask/core/compare/@metamask/message-manager@5.0.0...@metamask/message-manager@6.0.0
+[5.0.0]: https://github.com/MetaMask/core/compare/@metamask/message-manager@4.0.0...@metamask/message-manager@5.0.0
+[4.0.0]: https://github.com/MetaMask/core/compare/@metamask/message-manager@3.1.1...@metamask/message-manager@4.0.0
+[3.1.1]: https://github.com/MetaMask/core/compare/@metamask/message-manager@3.1.0...@metamask/message-manager@3.1.1
+[3.1.0]: https://github.com/MetaMask/core/compare/@metamask/message-manager@3.0.0...@metamask/message-manager@3.1.0
+[3.0.0]: https://github.com/MetaMask/core/compare/@metamask/message-manager@2.1.0...@metamask/message-manager@3.0.0
+[2.1.0]: https://github.com/MetaMask/core/compare/@metamask/message-manager@2.0.0...@metamask/message-manager@2.1.0
+[2.0.0]: https://github.com/MetaMask/core/compare/@metamask/message-manager@1.0.2...@metamask/message-manager@2.0.0
+[1.0.2]: https://github.com/MetaMask/core/compare/@metamask/message-manager@1.0.1...@metamask/message-manager@1.0.2
+[1.0.1]: https://github.com/MetaMask/core/compare/@metamask/message-manager@1.0.0...@metamask/message-manager@1.0.1
+[1.0.0]: https://github.com/MetaMask/core/releases/tag/@metamask/message-manager@1.0.0
