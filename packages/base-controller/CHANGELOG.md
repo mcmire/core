@@ -8,14 +8,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [3.1.0]
 ### Changed
-- Prevent event publish from throwing error ([#1475](https://github.com/MetaMask/core/pull/1475))
+- Prevent event publish from throwing error ([#1475](https://github.com/mcmire/core/pull/1475))
   - The controller messenger will no longer throw when an event subscriber throws an error. Calls to `publish` (either within controllers or on a messenger instance directly) will no longer throw errors.
   - Errors are thrown in a timeout handler so that they can still be logged and captured.
 
 ## [3.0.0]
 ### Changed
-- **BREAKING:** Bump to Node 16 ([#1262](https://github.com/MetaMask/core/pull/1262))
-- Replace `@metamask/controller-utils` dependency with `@metamask/utils` ([#1370](https://github.com/MetaMask/core/pull/1370))
+- **BREAKING:** Bump to Node 16 ([#1262](https://github.com/mcmire/core/pull/1262))
+- Replace `@metamask/controller-utils` dependency with `@metamask/utils` ([#1370](https://github.com/mcmire/core/pull/1370))
 
 ## [2.0.0]
 ### Removed
@@ -29,20 +29,20 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [1.1.1]
 ### Changed
-- Relax dependency on `@metamask/controller-utils` (use `^` instead of `~`) ([#998](https://github.com/MetaMask/core/pull/998))
+- Relax dependency on `@metamask/controller-utils` (use `^` instead of `~`) ([#998](https://github.com/mcmire/core/pull/998))
 
 ## [1.1.0]
 ### Added
-- Add `applyPatches` function to BaseControllerV2 ([#980](https://github.com/MetaMask/core/pull/980))
+- Add `applyPatches` function to BaseControllerV2 ([#980](https://github.com/mcmire/core/pull/980))
 
 ### Changed
-- Action and event handler types are now exported ([#987](https://github.com/MetaMask/core/pull/987))
-- Update `update` function to expose patches ([#980](https://github.com/MetaMask/core/pull/980))
+- Action and event handler types are now exported ([#987](https://github.com/mcmire/core/pull/987))
+- Update `update` function to expose patches ([#980](https://github.com/mcmire/core/pull/980))
 
 ## [1.0.0]
 ### Added
 - Initial release
-  - As a result of converting our shared controllers repo into a monorepo ([#831](https://github.com/MetaMask/core/pull/831)), we've created this package from select parts of [`@metamask/controllers` v33.0.0](https://github.com/MetaMask/core/tree/v33.0.0), namely:
+  - As a result of converting our shared controllers repo into a monorepo ([#831](https://github.com/mcmire/core/pull/831)), we've created this package from select parts of [`@metamask/controllers` v33.0.0](https://github.com/mcmire/core/tree/v33.0.0), namely:
     - `src/BaseController.ts`
     - `src/BaseController.test.ts`
     - `src/BaseControllerV2.ts`
@@ -54,11 +54,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
     All changes listed after this point were applied to this package following the monorepo conversion.
 
-[Unreleased]: https://github.com/MetaMask/core/compare/@metamask/base-controller@3.1.0...HEAD
-[3.1.0]: https://github.com/MetaMask/core/compare/@metamask/base-controller@3.0.0...@metamask/base-controller@3.1.0
-[3.0.0]: https://github.com/MetaMask/core/compare/@metamask/base-controller@2.0.0...@metamask/base-controller@3.0.0
-[2.0.0]: https://github.com/MetaMask/core/compare/@metamask/base-controller@1.1.2...@metamask/base-controller@2.0.0
-[1.1.2]: https://github.com/MetaMask/core/compare/@metamask/base-controller@1.1.1...@metamask/base-controller@1.1.2
-[1.1.1]: https://github.com/MetaMask/core/compare/@metamask/base-controller@1.1.0...@metamask/base-controller@1.1.1
-[1.1.0]: https://github.com/MetaMask/core/compare/@metamask/base-controller@1.0.0...@metamask/base-controller@1.1.0
-[1.0.0]: https://github.com/MetaMask/core/releases/tag/@metamask/base-controller@1.0.0
+[Unreleased]: https://github.com/mcmire/core/compare/@metamask/base-controller@3.1.0...HEAD
+[3.1.0]: https://github.com/mcmire/core/compare/@metamask/base-controller@3.0.0...@metamask/base-controller@3.1.0
+[3.0.0]: https://github.com/mcmire/core/compare/@metamask/base-controller@2.0.0...@metamask/base-controller@3.0.0
+[2.0.0]: https://github.com/mcmire/core/compare/@metamask/base-controller@1.1.2...@metamask/base-controller@2.0.0
+[1.1.2]: https://github.com/mcmire/core/compare/@metamask/base-controller@1.1.1...@metamask/base-controller@1.1.2
+[1.1.1]: https://github.com/mcmire/core/compare/@metamask/base-controller@1.1.0...@metamask/base-controller@1.1.1
+[1.1.0]: https://github.com/mcmire/core/compare/@metamask/base-controller@1.0.0...@metamask/base-controller@1.1.0
+[1.0.0]: https://github.com/mcmire/core/releases/tag/@metamask/base-controller@1.0.0
