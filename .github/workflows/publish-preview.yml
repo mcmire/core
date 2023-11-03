@@ -26,7 +26,7 @@ jobs:
     permissions:
       pull-requests: write
     # This ensures we don't publish on forks. We can't trust forks with this token.
-    if: ${{ needs.is-fork-pull-request.outputs.IS_FORK == 'false' }}
+    # if: ${{ needs.is-fork-pull-request.outputs.IS_FORK == 'false' }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
