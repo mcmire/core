@@ -1,5 +1,5 @@
 {
-  "name": "@mcmire/eth-json-rpc-provider",
+  "name": "@metamask/eth-json-rpc-provider",
   "version": "2.2.0",
   "description": "Create an Ethereum provider using a JSON-RPC engine or middleware",
   "keywords": [
@@ -24,7 +24,7 @@
     "build": "tsc --project tsconfig.build.json",
     "build:clean": "rimraf dist && yarn build",
     "build:docs": "typedoc",
-    "changelog:validate": "../../scripts/validate-changelog.sh @mcmire/eth-json-rpc-provider [...]",
+    "changelog:validate": "../../scripts/validate-changelog.sh @metamask/eth-json-rpc-provider",
     "lint": "yarn lint:eslint && yarn lint:misc --check && yarn lint:dependencies",
     "lint:dependencies": "depcheck",
     "lint:eslint": "eslint . --cache --ext js,ts",

@@ -1,5 +1,5 @@
 {
-  "name": "@mcmire/network-controller",
+  "name": "@metamask/network-controller",
   "version": "15.1.0",
   "description": "Provides an interface to the currently selected network via a MetaMask-compatible provider object",
   "keywords": [
@@ -22,7 +22,7 @@
   ],
   "scripts": {
     "build:docs": "typedoc",
-    "changelog:validate": "../../scripts/validate-changelog.sh @mcmire/network-controller [...]",
+    "changelog:validate": "../../scripts/validate-changelog.sh @metamask/network-controller",
     "publish:preview": "yarn npm publish --tag preview",
     "test": "jest --reporters=jest-silent-reporter",
     "test:clean": "jest --clearCache",

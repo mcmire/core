@@ -99,7 +99,7 @@ workspace_basename(WorkspaceCwd, WorkspaceBasename) :-
 % and is not private.
 workspace_package_name(WorkspaceCwd, WorkspacePackageName) :-
   workspace_basename(WorkspaceCwd, WorkspaceBasename),
-  atom_concat('@mcmire/', WorkspaceBasename, WorkspacePackageName).
+  atom_concat('@metamask/', WorkspaceBasename, WorkspacePackageName).
 
 % True if RepoName can be unified with the repository name part of RepoUrl, a
 % complete URL for a repository on GitHub. This URL must include the ".git"
@@ -117,9 +117,9 @@ repo_name(RepoUrl, RepoName) :-
   RepoNameLength is End - Start,
   sub_atom(RepoUrl, PrefixLength, RepoNameLength, SuffixLength, RepoName).
 
-% True if DependencyIdent starts with '@mcmire' and ends with '-controller'
+% True if DependencyIdent starts with '@metamask' and ends with '-controller'
 is_controller(DependencyIdent) :-
-  Prefix = '@mcmire/',
+  Prefix = '@metamask/',
   atom_length(Prefix, PrefixLength),
   Suffix = '-controller',
   atom_length(Suffix, SuffixLength),
@@ -140,7 +140,7 @@ is_controller(DependencyIdent) :-
 
 % The name of the root package can be anything, but the name of a non-root
 % package must match its directory (e.g., a package located in "packages/foo"
-% must be called "@mcmire/foo").
+% must be called "@metamask/foo").
 %
 % NOTE: This assumes that the set of non-root workspaces is flat. Nested
 % workspaces will be added in a future change.
@@ -324,9 +324,9 @@ gen_enforced_dependency(WorkspaceCwd, DependencyIdent, null, DependencyType) :-
 % to ensure the versions used match expectations.
 gen_enforced_dependency(WorkspaceCwd, DependencyIdent, DependencyRange, 'peerDependencies') :-
   workspace_has_dependency(WorkspaceCwd, DependencyIdent, DependencyRange, 'dependencies'),
-  DependencyIdent \= '@mcmire/base-controller',
-  DependencyIdent \= '@mcmire/eth-keyring-controller',
-  DependencyIdent \= '@mcmire/polling-controller',
+  DependencyIdent \= '@metamask/base-controller',
+  DependencyIdent \= '@metamask/eth-keyring-controller',
+  DependencyIdent \= '@metamask/polling-controller',
   is_controller(DependencyIdent).
 
 % All packages must specify a minimum Node version of 16.

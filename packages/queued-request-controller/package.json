@@ -1,5 +1,5 @@
 {
-  "name": "@mcmire/queued-request-controller",
+  "name": "@metamask/queued-request-controller",
   "version": "0.1.2",
   "description": "Includes a controller and middleware that implements a request queue",
   "keywords": [
@@ -22,7 +22,7 @@
   ],
   "scripts": {
     "build:docs": "typedoc",
-    "changelog:validate": "../../scripts/validate-changelog.sh @mcmire/queued-request-controller [...]",
+    "changelog:validate": "../../scripts/validate-changelog.sh @metamask/queued-request-controller",
     "publish:preview": "yarn npm publish --tag preview",
     "test": "jest --reporters=jest-silent-reporter",
     "test:clean": "jest --clearCache",

@@ -1,5 +1,5 @@
 {
-  "name": "@mcmire/preferences-controller",
+  "name": "@metamask/preferences-controller",
   "version": "4.4.3",
   "description": "Manages user-configurable settings for MetaMask",
   "keywords": [
@@ -22,7 +22,7 @@
   ],
   "scripts": {
     "build:docs": "typedoc",
-    "changelog:validate": "../../scripts/validate-changelog.sh @mcmire/preferences-controller [...]",
+    "changelog:validate": "../../scripts/validate-changelog.sh @metamask/preferences-controller",
     "publish:preview": "yarn npm publish --tag preview",
     "test": "jest --reporters=jest-silent-reporter",
     "test:clean": "jest --clearCache",

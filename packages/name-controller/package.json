@@ -1,5 +1,5 @@
 {
-  "name": "@mcmire/name-controller",
+  "name": "@metamask/name-controller",
   "version": "3.0.1",
   "description": "Stores and suggests names for values such as Ethereum addresses",
   "keywords": [
@@ -22,7 +22,7 @@
   ],
   "scripts": {
     "build:docs": "typedoc",
-    "changelog:validate": "../../scripts/validate-changelog.sh @mcmire/name-controller [...]",
+    "changelog:validate": "../../scripts/validate-changelog.sh @metamask/name-controller",
     "prepare-manifest:preview": "../../scripts/prepare-preview-manifest.sh",
     "publish:preview": "yarn npm publish --tag preview",
     "test": "jest --reporters=jest-silent-reporter",

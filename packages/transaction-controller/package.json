@@ -1,5 +1,5 @@
 {
-  "name": "@mcmire/transaction-controller",
+  "name": "@metamask/transaction-controller",
   "version": "16.0.0",
   "description": "Stores transactions alongside their periodically updated statuses and manages interactions such as approval and cancellation",
   "keywords": [
@@ -22,7 +22,7 @@
   ],
   "scripts": {
     "build:docs": "typedoc",
-    "changelog:validate": "../../scripts/validate-changelog.sh @mcmire/transaction-controller [...]",
+    "changelog:validate": "../../scripts/validate-changelog.sh @metamask/transaction-controller",
     "publish:preview": "yarn npm publish --tag preview",
     "test": "jest --reporters=jest-silent-reporter",
     "test:clean": "jest --clearCache",

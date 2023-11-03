@@ -1,5 +1,5 @@
 {
-  "name": "@mcmire/controller-utils",
+  "name": "@metamask/controller-utils",
   "version": "5.0.2",
   "description": "Data and convenience functions shared by multiple packages",
   "keywords": [
@@ -22,7 +22,7 @@
   ],
   "scripts": {
     "build:docs": "typedoc",
-    "changelog:validate": "../../scripts/validate-changelog.sh @mcmire/controller-utils [...]",
+    "changelog:validate": "../../scripts/validate-changelog.sh @metamask/controller-utils",
     "publish:preview": "yarn npm publish --tag preview",
     "test": "jest --reporters=jest-silent-reporter",
     "test:clean": "jest --clearCache",

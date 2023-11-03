@@ -1,5 +1,5 @@
 {
-  "name": "@mcmire/ens-controller",
+  "name": "@metamask/ens-controller",
   "version": "6.0.0",
   "description": "Maps ENS names to their resolved addresses by chain id",
   "keywords": [
@@ -22,7 +22,7 @@
   ],
   "scripts": {
     "build:docs": "typedoc",
-    "changelog:validate": "../../scripts/validate-changelog.sh @mcmire/ens-controller [...]",
+    "changelog:validate": "../../scripts/validate-changelog.sh @metamask/ens-controller",
     "publish:preview": "yarn npm publish --tag preview",
     "test": "jest --reporters=jest-silent-reporter",
     "test:clean": "jest --clearCache",

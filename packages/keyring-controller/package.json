@@ -1,5 +1,5 @@
 {
-  "name": "@mcmire/keyring-controller",
+  "name": "@metamask/keyring-controller",
   "version": "8.1.0",
   "description": "Stores identities seen in the wallet and manages interactions such as signing",
   "keywords": [
@@ -22,7 +22,7 @@
   ],
   "scripts": {
     "build:docs": "typedoc",
-    "changelog:validate": "../../scripts/validate-changelog.sh @mcmire/keyring-controller [...]",
+    "changelog:validate": "../../scripts/validate-changelog.sh @metamask/keyring-controller",
     "publish:preview": "yarn npm publish --tag preview",
     "test": "jest --reporters=jest-silent-reporter",
     "test:clean": "jest --clearCache",

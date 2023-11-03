@@ -1,5 +1,5 @@
 {
-  "name": "@mcmire/accounts-controller",
+  "name": "@metamask/accounts-controller",
   "version": "4.0.0",
   "description": "Manages internal accounts",
   "keywords": [
@@ -22,7 +22,7 @@
   ],
   "scripts": {
     "build:docs": "typedoc",
-    "changelog:validate": "../../scripts/validate-changelog.sh @mcmire/accounts-controller [...]",
+    "changelog:validate": "../../scripts/validate-changelog.sh @metamask/accounts-controller",
     "publish:preview": "yarn npm publish --tag preview",
     "test": "jest --reporters=jest-silent-reporter",
     "test:clean": "jest --clearCache",
