@@ -1,5 +1,5 @@
 {
-  "name": "@metamask/gas-fee-controller",
+  "name": "@mcmire/gas-fee-controller",
   "version": "10.0.0",
   "description": "Periodically calculates gas fee estimates based on various gas limits as well as other data displayed on transaction confirm screens",
   "keywords": [
@@ -22,7 +22,7 @@
   ],
   "scripts": {
     "build:docs": "typedoc",
-    "changelog:validate": "../../scripts/validate-changelog.sh @metamask/gas-fee-controller",
+    "changelog:validate": "../../scripts/validate-changelog.sh @mcmire/gas-fee-controller [...]",
     "publish:preview": "yarn npm publish --tag preview",
     "test": "jest --reporters=jest-silent-reporter",
     "test:clean": "jest --clearCache",

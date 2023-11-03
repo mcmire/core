@@ -1,5 +1,5 @@
 {
-  "name": "@metamask/base-controller",
+  "name": "@mcmire/base-controller",
   "version": "3.2.3",
   "description": "Provides scaffolding for controllers as well a communication system for all controllers",
   "keywords": [
@@ -22,7 +22,7 @@
   ],
   "scripts": {
     "build:docs": "typedoc",
-    "changelog:validate": "../../scripts/validate-changelog.sh @metamask/base-controller",
+    "changelog:validate": "../../scripts/validate-changelog.sh @mcmire/base-controller [...]",
     "publish:preview": "yarn npm publish --tag preview",
     "test": "jest --reporters=jest-silent-reporter",
     "test:clean": "jest --clearCache",

@@ -1,5 +1,5 @@
 {
-  "name": "@metamask/assets-controllers",
+  "name": "@mcmire/assets-controllers",
   "version": "18.0.0",
   "description": "Controllers which manage interactions involving ERC-20, ERC-721, and ERC-1155 tokens (including NFTs)",
   "keywords": [
@@ -22,7 +22,7 @@
   ],
   "scripts": {
     "build:docs": "typedoc",
-    "changelog:validate": "../../scripts/validate-changelog.sh @metamask/assets-controllers",
+    "changelog:validate": "../../scripts/validate-changelog.sh @mcmire/assets-controllers [...]",
     "publish:preview": "yarn npm publish --tag preview",
     "test": "jest --reporters=jest-silent-reporter",
     "test:clean": "jest --clearCache",

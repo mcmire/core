@@ -1,5 +1,5 @@
 {
-  "name": "@metamask/polling-controller",
+  "name": "@mcmire/polling-controller",
   "version": "1.0.1",
   "description": "Polling Controller is the base for controllers that polling by networkClientId",
   "keywords": [
@@ -22,7 +22,7 @@
   ],
   "scripts": {
     "build:docs": "typedoc",
-    "changelog:validate": "../../scripts/validate-changelog.sh @metamask/polling-controller",
+    "changelog:validate": "../../scripts/validate-changelog.sh @mcmire/polling-controller [...]",
     "publish:preview": "yarn npm publish --tag preview",
     "test": "jest --reporters=jest-silent-reporter",
     "test:clean": "jest --clearCache",

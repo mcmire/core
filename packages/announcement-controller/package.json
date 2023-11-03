@@ -1,5 +1,5 @@
 {
-  "name": "@metamask/announcement-controller",
+  "name": "@mcmire/announcement-controller",
   "version": "4.0.3",
   "description": "Manages in-app announcements",
   "keywords": [
@@ -22,7 +22,7 @@
   ],
   "scripts": {
     "build:docs": "typedoc",
-    "changelog:validate": "../../scripts/validate-changelog.sh @metamask/announcement-controller",
+    "changelog:validate": "../../scripts/validate-changelog.sh @mcmire/announcement-controller [...]",
     "publish:preview": "yarn npm publish --tag preview",
     "test": "jest --reporters=jest-silent-reporter",
     "test:clean": "jest --clearCache",

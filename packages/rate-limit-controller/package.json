@@ -1,5 +1,5 @@
 {
-  "name": "@metamask/rate-limit-controller",
+  "name": "@mcmire/rate-limit-controller",
   "version": "3.0.3",
   "description": "Contains logic for rate-limiting API endpoints by requesting origin",
   "keywords": [
@@ -22,7 +22,7 @@
   ],
   "scripts": {
     "build:docs": "typedoc",
-    "changelog:validate": "../../scripts/validate-changelog.sh @metamask/rate-limit-controller",
+    "changelog:validate": "../../scripts/validate-changelog.sh @mcmire/rate-limit-controller [...]",
     "publish:preview": "yarn npm publish --tag preview",
     "test": "jest --reporters=jest-silent-reporter",
     "test:clean": "jest --clearCache",

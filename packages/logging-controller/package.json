@@ -1,5 +1,5 @@
 {
-  "name": "@metamask/logging-controller",
+  "name": "@mcmire/logging-controller",
   "version": "1.0.4",
   "description": "Manages logging data to assist users and support staff",
   "keywords": [
@@ -22,7 +22,7 @@
   ],
   "scripts": {
     "build:docs": "typedoc",
-    "changelog:validate": "../../scripts/validate-changelog.sh @metamask/logging-controller",
+    "changelog:validate": "../../scripts/validate-changelog.sh @mcmire/logging-controller [...]",
     "publish:preview": "yarn npm publish --tag preview",
     "test": "jest --reporters=jest-silent-reporter",
     "test:clean": "jest --clearCache",
